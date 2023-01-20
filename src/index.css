@@ -1,13 +1,232 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #E5E5E5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.main{
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  left:30%;
+  top: 53px;
+  background: #23252C;
+}
+
+.info_about_interest{
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+  background: #1A1B21;
+}
+
+img{
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: -1px;
+  top: -317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info_about_interest > h1 {
+  position: absolute;
+  width: 178.06px;
+  height: 25.81px;
+  left: 85px;
+  top: -12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.info_about_interest > h2 {
+  position: absolute;
+  width: 178.06px;
+  height: 14.19px;
+  left: 69px;
+  top: 22px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+
+.info_about_interest > h3 {
+  position: absolute;
+  width: 228px;
+  height: 16px;
+  left: 40px;
+  top: 41px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+
+}
+
+.btn_email {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 51px;
+  top: 68px;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.btn_linkedin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+
+  position: absolute;
+  width: 115px;
+  height: 34px;
+  left: 183px;
+  top: 68px;
+
+  background: #5093E2;
+  /* shadow/sm */
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.about_title {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 12px;
+  top: 105px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+
+.about_detail {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 12px;
+  top: 141px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+.interest_title{
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 12px;
+  top: 215px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+
+  color: #F5F5F5;
+
+}
+
+.interest_detail {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 12px;
+  top: 245px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #DCDCDC;
+}
+
+.footer {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 700px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.tiwtter {
+  color: black;
+  position: absolute;
+  left: 21.36%;
+  right: 72.09%;
+  top: 25.75%;
+  bottom: 46.37%;
+  background: #918E9B;
+}
+.facebook {
+  color: black;
+  position: absolute;
+  left: 35.36%;
+  right: 59.09%;
+  top: 25.75%;
+  bottom: 46.37%;
+  background: #918E9B;
+}
+
+.instagram {
+  color: black;
+  position: absolute;
+  left: 47.36%;
+  right: 46.45%;
+  top: 25.75%;
+  bottom: 46.37%;
+  background: #918E9B;
+
+}
+
+.github {
+  color: black;
+  position: absolute;
+  left: 61%;
+  right: 32.45%;
+  top: 25.75%;
+  bottom: 46.37%;
+  background: #918E9B;
 }
